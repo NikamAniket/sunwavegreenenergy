@@ -209,3 +209,43 @@ h1, h2, h3, h4, h5, h6 {
     height: 70px;
   }
 }
+
+/* Floating Buttons Code */
+
+/* Desktop — hide mobile-only elements */
+@media (min-width: 1025px) {
+  .mobile-cta { display: none; }
+  body { padding-bottom: 0; }
+}
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.floating-buttons a img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.floating-buttons a img:hover {
+  transform: scale(1.1);
+}
+
+.custom-border {
+    border: 2px solid #045879;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #ffffff; /* optional */
+}
+/* Floating Buttons Code ENDS  */
