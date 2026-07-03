@@ -204,11 +204,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Sticky Mobile Bottom CTA Styles */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .mobile-cta-shim {
     height: 70px;
   }
-}
+} */
 
 /* Floating Buttons Code */
 
